@@ -2,6 +2,7 @@ import { ClipboardList, Gift, Headset, Home, Info, PartyPopper } from "lucide-re
 import Link from "next/link";
 import React from "react";
 
+// Define the navigation links with their respective icons
 const links = [
   { name: "home", href: "/", icone: <Home /> },
   { name: "products", href: "/", icone: <Gift /> },
