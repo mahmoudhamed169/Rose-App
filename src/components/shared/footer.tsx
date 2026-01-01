@@ -59,8 +59,12 @@ export default function Footer() {
       {/* right side */}
 
       <div className="w-96">
-        <h2 className="text-soft-pink-300 font-semibold text-xl">Get <span className="text-zinc-100">20% </span>Off Discount Coupon</h2>
-        <p className="text-zinc-500 font-normal text-sm">By subscribing to our newsletter</p>
+        <h2 className="text-soft-pink-300 font-semibold text-xl">
+          Get <span className="text-zinc-100">20% </span>Off Discount Coupon
+        </h2>
+        <p className="text-zinc-500 font-normal text-sm">
+          By subscribing to our newsletter
+        </p>
 
         <div className="mt-4 relative">
           <Input
@@ -77,4 +81,3 @@ export default function Footer() {
     </footer>
   );
 }
- 
