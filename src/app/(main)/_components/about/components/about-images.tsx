@@ -26,6 +26,7 @@ export default function AboutImages() {
           height={193}
           className={cn("w-[193px] h-[144px]   object-fill",roundedStyling)}
         />
+        {/* say hi */}
       </div>
     </div>
   );
