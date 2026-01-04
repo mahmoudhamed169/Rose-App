@@ -3,8 +3,9 @@ import Hero from "./_components/hero";
 import Occasions from "./_components/occasions";
 import Features from "./_components/features";
 import { Truck } from "lucide-react";
+import AboutSection from "./_components/about";
 
-
+import Gallery from "./_components/gallery/gallery";
 
 export default function page() {
   return (
@@ -12,6 +13,8 @@ export default function page() {
       <Hero />
       <Occasions />
       <Features />
+      <AboutSection />
+      <Gallery />
     </main>
   );
 }
