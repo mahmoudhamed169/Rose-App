@@ -6,6 +6,7 @@ import { Truck } from "lucide-react";
 import AboutSection from "./_components/about";
 
 import Gallery from "./_components/gallery/gallery";
+import Campaies from "./_components/campaies";
 
 export default function page() {
   return (
@@ -15,6 +16,7 @@ export default function page() {
       <Features />
       <AboutSection />
       <Gallery />
+      <Campaies/>
     </main>
   );
 }
