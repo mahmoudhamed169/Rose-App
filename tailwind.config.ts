@@ -116,6 +116,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        sarabun:"var(--font-sarabun)"
+      },
     },
   },
   plugins: [],
