@@ -7,6 +7,7 @@ import AboutSection from "./_components/about";
 
 import Gallery from "./_components/gallery/gallery";
 import Campaies from "./_components/campaies";
+import BestSelling from "./_components/best-selling";
 
 export default function page() {
   return (
@@ -14,6 +15,7 @@ export default function page() {
       <Hero />
       <Occasions />
       <Features />
+      <BestSelling />
       <AboutSection />
       <Gallery />
       <Campaies/>
